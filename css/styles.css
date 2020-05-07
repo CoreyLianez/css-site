@@ -1,0 +1,151 @@
+/**********************Class Selectors**********************/
+/****TOP-CONTAINER****/
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  margin: 0;
+  background-color: #EAF6F6;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+  max-width: 100%;
+  height: auto;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 200px;
+  max-width: 100%;
+  height: auto;
+}
+
+/****MIDDLE-CONTAINER****/
+.profile {
+  margin: auto;
+  width: 50%;
+  line-height: 2;
+}
+
+.skill-row1 {
+  margin: 50px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row2 {
+  margin: 50px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.coding-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.computer-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/****BOTTOM-CONTAINER****/
+.bottom-container {
+  padding: 50px 0 20px;
+  background-color: #7e6752;
+}
+
+.mybutton {
+	box-shadow: 0 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#11999E;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+  margin: 30px auto 100px;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+}
+.mybutton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.mybutton:active {
+	position:relative;
+	top:1px;
+}
+
+.footer-link-freepik {
+  margin: 1px;
+  font-family: 'Montserrat', serif;
+  color: #413529;
+}
+
+.p-freepik {
+  margin-top: 30px;
+  font-size: 0.75rem;
+}
+
+.copyright {
+  margin-bottom: 0;
+  font-size: 0.75rem;
+  color: #EAF6F6;
+}
+
+/**********************Tag Selectors**********************/
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+/*div {}*/
+hr {
+  border-style: dotted none none;
+  border-top-width: thick;
+  border-width: 5px;
+  width: 5%;
+}
+
+a {
+  margin: 10px 20px;
+  font-family: 'Montserrat', serif;
+  color: #413529;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+/**********************ID Selectors**********************/
